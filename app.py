@@ -4,7 +4,6 @@ import numpy as np
 
 # Load model yang sudah dibuat di Colab
 model = joblib.load('model_iris.pkl')
-le = joblib.load('label_encoder.pkl')
 
 st.title("Prediksi Bunga Iris")
 
